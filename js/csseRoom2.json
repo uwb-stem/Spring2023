@@ -1,0 +1,92 @@
+{
+    "csse": [
+        {
+            "time": "1:00 PM - 1:15 PM",
+            "projectId": "csse-2-100",
+            "title": "Detecting Design Patterns In Open Source Java Code",
+            "studentName": "Tim Medvedev",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Hazeline Asuncion",
+            "posterLink": "./posters/csse/medvedev_tim.png",
+            "abstract": "Every software project, especially those programmed in an object-oriented language, can have its components represented in diagrams and other high-level representations that can improve our understanding and visibility of the project as opposed to just looking at raw source code. Our research project for Dr. Asuncion focused on the detection of, and searching for security focused design patterns within Java projects using our toolchain of proprietary and open-source software. By having an automated process, we can quickly search for a specific design pattern within software projects and compare variations of that design pattern with directly related sections of source code that share classes and/or methods with components of the design pattern. My work was varied and focused on creating tutorial documents, searching for design patterns manually within source code, and reworking some elements of our proprietary software, PatternScout. \n\nPatternScout was developed by Jeffy Jahfar Poozhithara and its purpose is to take UML diagrams converted to a text based .xmi format that is then parsed through in order to create SPARQL queries. SPARQL queries are database language queries meant to be run against an “RDF” formatted database, which we also receive from open-source software that converts Java source code to an “RDF” format. \n\nMy changes to PatternScout focused on adding more features to increase or decrease visibility of certain elements in a design pattern, for instance adding the option to exclude all elements that are not classes from the SELECT statement of the SPARQL query. I also worked on the functionality of improving the SPARQL queries demonstration of inheritance and has-a relationships. Our research group’s work and my work help blur the barrier between high-level design documents and source code, allowing us to standardize design patterns by cross-referencing a base design pattern with actual source code that can fit that design template.\n\n"
+        },    
+        {
+            "time": "1:15 PM - 1:30 PM",
+            "projectId": "csse-2-115",
+            "title": "Analyzing Alternative Security Design Patterns Using Detection Software",
+            "studentName": "Jesse Oteba",
+            "studentMajor": "CSSE",
+            "projectType": "Faculty Research",
+            "facultyAdvisor": "Dr. Hazeline Asuncion",
+            "posterLink": "./posters/csse/oteba_jesse.png",
+            "abstract": "This research focuses on identifying and analyzing common security design patterns used in cybersecurity, aiming to enhance software security. Open-source projects were studied to gain insight into prevalent security patterns and assess their effectiveness. The findings contribute to the development of secure software systems and guide the implementation of novel patterns, promoting robust cybersecurity practices.\n\nThe motivation behind this research is to enable engineers to understand source code, meet high-security requirements, and incorporate new additions while maintaining program integrity. Current methods for analyzing source code are time-consuming and prone to error. In contrast, leveraging automated tools accelerates analysis, improves code review, and enhances security issue detection.\n\nThe research involved categorizing security design patterns based on structure and principles, researching variations, and creating UML diagrams using VisualParadigm. This process required familiarity with analysis and design concepts, learning software capabilities, and adapting diagrams to fit requirements.\n\nBy analyzing and categorizing security design patterns, this research advances software security and informs the development of more secure systems. The use of automated tools streamlines evaluation and enhances code review, facilitating effective security measures."
+        },
+        {
+            "time": "1:30 PM - 1:45 PM",
+            "projectId": "csse-2-130",
+            "title": "Project Management Internship @ Course Finder",
+            "studentName": "Khalid Elhousieny",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "./posters/csse/elhousieny_khalid.png",
+            "abstract": "Over the course of Capstone, I played an integral role within the Course Finder development team. My duties were a fusion of customer-oriented research, data-driven development, and proficient project management. Initially, my primary task was to establish and run a project to gather user feedback. I put together an ongoing focus group and designed tasks that engaged the group members and generated insightful data. This firsthand experience with users allowed me to gain a deeper understanding of their needs and expectations, which directly influenced my subsequent efforts in product enhancements.\n\nA key task I undertook was the creation of an internal dashboard for our team, which was driven by SQL queries I meticulously crafted to analyze user data. I successfully pulled relevant information about our customers, such as retention rates, the number of active users, the frequency of first-time visits, and the usage of specific features on our website. This enabled our team to track essential metrics and make informed decisions about product improvements. The simplicity and versatility of SQL, coupled with online resources, facilitated my efficient manipulation of data to meet our specific needs.\n\nAnother significant aspect of my work involved conducting interviews and focus groups. These activities were invaluable in extracting insights into user experiences, desires, and challenges. A prime example was a task that solicited user feedback on the design and usability of a new feature on our website. This hands-on feedback guided us in iterating our designs to be more user-friendly.\n\nHowever, the journey was not without its hurdles. One issue that surfaced was the difficulty in coordinating virtual meetings with the focus group due to conflicting schedules. This necessitated a flexible approach, in which I relied on text responses and proactively sought to understand user behavior through their feedback.\n\nThe culmination of these tasks and the lessons I learned resulted in considerable progress for our project. The user feedback that was collected and analyzed greatly influenced the prioritization of feature development in our engineering backlog. The SQL queries I wrote for our dashboard yielded valuable insights into user behavior and product performance. Furthermore, my efforts in integrating schools through Regex functions in Excel broadened our user base, thereby increasing the variety of feedback and data available to us.\n\nIn conclusion, my work underscored the importance of active user engagement, data-driven decision-making, and adaptable problem-solving in product development. These experiences furthered our team's mission to continually improve our product and deliver a compelling user experience."
+        } ,    
+        {
+            "time": "1:45 PM - 2:00 PM",
+            "projectId": "csse-2-145",
+            "title": "Okta Internship",
+            "studentName": "Zyad Elgohary",
+            "studentMajor": "CSSE",
+            "projectType": "Sponsored Internship",
+            "facultyAdvisor": "Dr. Arkady Retik",
+            "posterLink": "./posters/csse/elgohary_zyad.jpg",
+            "abstract": ""
+        },
+        {
+            "time": "2:00 PM - 2:15 PM",
+            "projectId": "csse-2-200",
+            "title": "Evaluating bias in Machine Learning Algorithm for Gender and Racial Fairness",
+            "studentName": "Frank Lu",
+            "studentMajor": "Applied Computing",
+            "projectType": "Applied Computing",
+            "facultyAdvisor": "Dr. William Erdly",
+            "posterLink": "./posters/applied-computing/lu_frank.png",
+            "abstract": ""
+        }  ,    
+        {
+            "time": "2:15 PM - 2:30 PM",
+            "projectId": "csse-2-215",
+            "title": "Sagalingua Website Redesign",
+            "studentName": "Nathan Yan",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project: Student Defined",
+            "facultyAdvisor": "Dr. William Erdly",
+            "posterLink": "./posters/csse/yan_nathan.JPG",
+            "abstract": "Sagalingua is a language and coaching center that aims to foster a safe environment for people of all ages to learn languages. Whether in-person or remote, Sagalingua enables students to achieve their goals by building customized lesson plans to help best serve their needs. As a business that relies on its website as its primary medium for growth, I wanted to run through the UX design framework on the site to help enhance its usability and keep it relevant compared to its competition. The major problem with the website was that it was outdated — deterring potential customers and reducing its ability to retain existing customers. By redesigning the site, I hoped to make it more usable, equitable, enjoyable, and helpful.\n\nI started by empathizing with the current user base to understand their problems, needs, and wants. I created two personas and interviewed several students at Sagalingua to identify pain points. I wanted my design to revolve around research and facts based on feedback — and not my assumptions. Next, I defined the scope of the problem by creating goal and problem statements. These processes helped me understand which user problems were most important to solve and helped me develop a goal for what my design was trying to accomplish. Once I understood my target audience and the issues associated with the current Sagalingua website, it was time to ideate solutions. I began sketching using the crazy eights exercise to generate ideas, and I developed \"How Might We\" statements to translate these problems into opportunities for design solutions. After creating wireframes, low-fidelity prototypes, and high-fidelity prototypes, I conducted a short usability study with students to get feedback. The feedback I received allowed me to iterate on my designs, giving insight into how to refine my solution throughout the design process.\n\nAs a result of this project experience, it gave me insight into the amount of effort and time it takes to design a website. Most of my efforts for this project revolved around learning Figma and getting students to interview. I learned about design systems, color theory, components, and animations -- and how to utilize them to improve a user's experience. After exploring different ideas, listening to feedback, and iterating, I learned there will always be a way to improve and that you should consistently challenge your existing image of the \"perfect\" solution."
+        },
+        {
+            "time": "2:30 PM - 2:45 PM",
+            "projectId": "csse-2-230",
+            "title": "2D Video Game Development (Java Learner)",
+            "studentName": "Peter Chen",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project: Student Defined",
+            "facultyAdvisor": "Dr. William Erdly",
+            "posterLink": "./posters/csse/chen_peter.png",
+            "abstract": " For this individual capstone project, I developed a 2D Top-Down Quiz RPG video game. While most video games provide joyful experience to the player, very little video games focus on education. This video game focus on motivates the player to learn computer science domain knowledge.\n\nSince I am familiar with C#, I decided to use Unity Game engine to develop my first video game. I also draw my own asset using Aseprite. As a Final Fantasy fan, I design my game to be open world with turn-based battle system. In order to helps the player learn computer science knowledge, I integrated the quiz battle system to my game. With the limited amount of time, the computer science knowledge is focus mainly on Java and relevant programming concept.\n\nThe game consists of 27 world scenes. The player can interact with the NPCs to gather information (programming knowledge). While the player travels across the world, there is a chance to encounter enemy which transfer to the battle scene. The player can choose a set of actions against the enemy. However, the player must answer the question correctly in order to act successfully. When the enemy is defeated, the player will return to the previous world location and continue the journey. The player’s objective is to defeat the boss at the end to win the game.\n\nThe development process helps me understand developing video game needs careful planning and time management. The challenges I encounter are unable to find the game asset online and generate quiz questions myself. I mitigate the challenges by draw the game art by myself when needed and use the online programming learning website to gather the quiz questions.\n\nIn conclusion, my game is working as I expected. If I have time, I would like to improve my game by adding more music and attack animations."
+        } ,
+        {
+            "time": "2:45 PM - 3:00 PM",
+            "projectId": "csse-2-245",
+            "title": "Developing an Intuitive Speech-Generating Device",
+            "studentName": "Krishna Langille",
+            "studentMajor": "CSSE",
+            "projectType": "Individual Project: Student Defined",
+            "facultyAdvisor": "Dr. William Erdly",
+            "posterLink": "./posters/csse/chandra_kirtiashnas.jpg",
+            "abstract": "My capstone project was an individual project that aimed to solve the problem of finding the right courses to take at UWB. As a student, finding courses that fit your schedule, or just make sense to take with your degree requirements can be tough to find. It is always best to meet with an academic advisor, but there are times when you are low on time and you need an opinion right away. The UWB Course Planner is the solution to this problem.\n\n During the course of this project, I utilized tools such as Azure Cloud Services for a SQL database and a Web App. I used Python as my means for backend development and utilized HTML, CSS, and Javascript with JQuery and Bootstrap for frontend development.\n\nThe method I chose to create this application was to use web crawling. The web application and other logic is self explanatory, but the web crawling wasn’t the most straightforward process to go through. I had to first figure out what information I wanted to extract from the web. This included information on UW majors and UW courses. The challenge was just the sheer amount of majors and courses of all 3 combined UW campuses. The web crawler couldn’t account for everything since there are lots of nuances to certain majors and courses. Because of this, I decided to only make my application work for the Bothell campus. It was unfortunate, but with time constraints, it was the only reasonable option without cutting out vital features.\n\n The result of my work is an application that can be accessed by anyone who wants to plan their next quarter at UWB. It isn’t the most complete application and there are some things I wanted to implement but didn’t have the time for. These are things such as a Rate My Professor and difficulty filter that could help narrow down the courses even more. I also wish I had more UX experience to improve the UX of the overall application. But in the end, this application can still be useful to students who want an extra recommendation for courses. "
+        }                  
+    ]
+}
