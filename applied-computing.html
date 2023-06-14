@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Applied Computing for Spring 2023</title>
+    <link rel="stylesheet" href="css/presentations.css">
+    <link rel="stylesheet" href="css/uw-button.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <script src="https://kit.fontawesome.com/89bc5abcf1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <section class="uwb-logo">
+            <a href="https://www.uwb.edu/stem"><img src="images/web-white-left-school-signature-uw-bothell.png" alt="UW Bothell School of STEM Logo"></a>
+        </section>
+
+        <nav class="align-center" id="dawgdrops">
+            <div class="dawgdrops-inner container">
+                <ul class="dawgdrops-nav" id="menu-brand-menu">
+
+                    <li class="dawgdrops-item">
+                        <a href="index.html" id="101" title="Home Page">Home Page</a>
+                    </li>
+
+                    <li class="dawgdrops-item">
+                        <a class="dropdown-toggle" href="#"
+                        id="102" title="Biological Sciences">Biological Sciences</a>
+
+                        <ul class="dawgdrops-menu dawgdrops-menu-em" id="menu-102">
+                            <li>
+                                <a href="./biological-sciences.html"
+                                title="CSSE">Biology</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dawgdrops-item">
+                        <a class="dropdown-toggle" href="#"
+                        id="103" title="Computing & Software System">Computing & Software Systems</a>
+
+                        <ul class="dawgdrops-menu dawgdrops-menu-em" id="menu-104">
+                            <li>
+                                <a href="./csse.html"
+                                title="CSSE">Computer Science & Software Engineering</a>
+                            </li>
+
+                            <li>
+                                <a href="./applied-computing.html"
+                                title="Applied Computing">Applied Computing</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dawgdrops-item">
+                        <a class="dropdown-toggle" href="#"
+                        id="102" title="Engineering & Mathematics">Engineering & Mathematics</a>
+
+                        <ul class="dawgdrops-menu dawgdrops-menu-em" id="menu-104">
+                            <li>
+                                <a href="./engineering.html"
+                                title="CSSE">Engineering</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dawgdrops-item">
+                        <a class="dropdown-toggle" href="#"
+                        id="102" title="Physical Sciences">Physical Sciences</a>
+
+                        <ul class="dawgdrops-menu dawgdrops-menu-em" id="menu-104">
+                            <li>
+                                <a href="./physics+chemistry.html"
+                                title="Physical Sciences">Physics & Chemistry</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1>Spring 2023 Capstone & Symposium</h1>
+        <hr>
+    </header>
+
+    <h2>Applied Computing</h2>
+    <p class="date">June 9, 2023</p>
+
+    <!-- <p class="text">
+        <b>Oral Presentations:</b> UW2 005 &nbsp | &nbsp 12:30pm - 3:35pm</br>
+
+    </p> -->
+
+    <p class="text">
+        Welcome to the Spring quarter Capstone Colloquium.<br/><br/>
+
+        <b>CSS Students:</b> All CSS students must attend a CSS Colloquium before they complete their own capstone requirement. To document that you attended this colloquium, fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBPiPNW731XRM9f3R8J6p20wgRUN_XmjeSke_KmNID5Uoz-w/viewform?gxids=7628">Colloquium Attendance form</a>.<br/><br/>
+        <b>Poster Sessions:</b>  Mobius Hall (CC3) &nbsp | &nbsp 11:00 AM - 12:00 PM &nbsp <br/><br/>
+        <b>Panel Presentations:</b>  UW1 110 &nbsp | &nbsp 1:00 PM - 3:00 PM</br>
+        <!--<a href="https://washington.zoom.us/j/96916942652?pwd=T1hYUHVYZCtteXZuQ1VDQytWOVRHdz09">Click here to join the live Applied Computing presentations</a>-->
+
+    </p>
+
+    <!-- <a class="uw-btn" id="sideNavBtn" href="https://google.com" target="_blank">Zoom room</a> -->
+
+    <!-- -------------------------------------- Intro ------------------------------------------ -->
+    <div class="info-box">
+        <h4>1:00 PM - 1:03 PM </h4>
+        <h1>Welcome & Introductions</h1>
+        <h2>Dr. Laurie Anderson & Sonal Yadav</h2>
+    </div>
+    <div class="space"></div>
+    <!-- -------------------------------------- Intro ------------------------------------------ -->
+
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img id="img01" style="width:100%">
+        </div>
+      </div>
+
+    <script>
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+    </script>
+
+    <!-- ------------------------------------ Panel Discussion 1 ------------------------------------ -->
+
+    <div class="acContent_Block">
+        <div class="acContent">
+            <!--  Student column 1  -->
+
+            <div id="col2" class="acspan-12">
+                <div class="gray-box"><!---->
+                    <h3>1:00 PM - 1:25 PM</h3>
+                    <h1><b>Panel Discussion:</b> Everyday Life</h1>
+                    <div class="gray-box-text">
+                        <b>Host:</b> Eric Chiu  |
+                        <b>Assistants:</b> Brian Redlinger, Abtin Norizadeh<br><br>
+                    </div>
+                </div>
+
+                <div class="student-box">
+                    <img src="./posters/applied-computing/jesus.jpg" width="384" height="216" alt="Metro Data Analysis" style="cursor:pointer"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+                    <h3>Metro Data Analysis Web App</h3>
+                    <div class="students">
+                        <h4>
+                            Jesus Eduardo Celestino<br/>
+                        </h4>
+                        <h5 class="majors">
+                            Applied Computing,<br/>
+                            Second discipline: Economics
+                        </h5>
+                    </div>
+                    <p>Faculty Advisor: Dr. Laurie Anderson </p>
+                </div>
+
+                <div class="student-box">
+                    <img src="./posters/applied-computing/kim.png" width="384" height="216" alt="Rat-a-Tat-Cat!" style="cursor:pointer"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+                    <h3>Rat-A-Tat-Cat! Web App Platform</h3>
+                    <div class="students">
+                        <h4>
+                           Youngjoon Kim<br/>
+                        </h4>
+                        <h5 class="majors">
+                            Applied Computing,<br/>
+                            Second discipline: Mathematics
+                        </h5>
+                    </div>
+                    <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+                </div>
+
+            </div>
+            <!-- column 1 END -->
+
+            <!--  Student column 2  -->
+            <div id="col3" class="acspan-6 ">
+                <div class="empty-box"></div>
+                <br/><br/><br/>
+
+                <div class="student-box">
+                    <img src="./posters/applied-computing/prasetyo.jpg" width="384" height="216" alt="Metro Data Analysis" style="cursor:pointer"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+                    <h3>Metro Data Analysis Web App</h3>
+                    <div class="students">
+                        <h4>
+                            Daniel Prasetyo<br/>
+                        </h4>
+                        <h5 class="majors">
+                            Applied Computing,<br/>
+                            Second discipline: Infomatics
+                        </h5>
+                    </div>
+                    <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+                </div>
+
+                <div class="student-box">
+                    <img src="./posters/applied-computing/timbol.png" width="384" height="216" alt="Exerlog" style="cursor:pointer"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+                    <h3>Exerlog: Gym Routines Made Easy</h3>
+                    <div class="students">
+                        <h4>
+                            Jericho Sanchez Timbol<br/>
+                        </h4>
+                        <h5 class="majors">
+                            Applied Computing,<br/>
+                            Second discipline: Data <br/>Science & Analytics
+                        </h5>
+                    </div>
+                    <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+                </div>
+                <div class="student-box">
+                    <img src="./posters/applied-computing/tran_brandon.jpg" width="384" height="216" alt="Exerlog" style="cursor:pointer"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+                    <h3>Exerlog: Gym Routines Made Easy</h3>
+                    <div class="students">
+                        <h4>
+                            Brandon Hong Tran<br/>
+                        </h4>
+                        <h5 class="majors">
+                            Applied Computing,<br/>
+                            Second discipline: Data <br/>Science & Analytics
+                        </h5>
+                    </div>
+                    <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+                </div>
+
+            </div>
+            <!-- column 2 END -->
+        </div>
+    </div>
+    <!-- ------------------------------------ Panel Discussion 1 END ------------------------------------ -->
+
+    <div class="space"></div>
+
+    <div class="info-box">
+        <h4>1:25 PM - 1:30 PM</h4>
+        <h1>5 Minute Break</h1>
+    </div>
+
+    <div class="space"></div>
+
+    <!-- ------------------------------------ Panel Discussion 2 ------------------------------------ -->
+
+    <div class="acContent_Block">
+        <div class="acContent">
+            <!--  Student column 1  -->
+
+            <div id="col2" class="acspan-12">
+                <div class="gray-box">
+                    <h3>1:30 PM - 1:55 PM</h3>
+                    <h1><b>Panel Discussion:</b> Education</h1>
+                    <div class="gray-box-text">
+                        <b>Host:</b> Bennett Jochim  |
+                        <b>Assistants:</b> Araski Bogosian, Daniel Kozodoy<br><br>
+                    </div>
+                </div>
+
+                <div class="student-box">
+                    <img src="./posters/applied-computing/abdi_mariamah.jpg" width="384" height="216" alt="Visualizing and Analyzing Metro Data" style="cursor:pointer"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+                    <h3>Visualizing and Analyzing Metro Data</h3>
+                    <div class="students">
+                        <h4>
+                            Mariama H Abdi<br/>
+                        </h4>
+                        <h5 class="majors">
+                            Applied Computing,<br/>
+                            Second discipline: Data Science
+                        </h5>
+                    </div>
+                    <p>Faculty Advisor: Dr. Laurie Anderson </p>
+                </div>
+
+                <div class="student-box">
+                    <img src="./posters/applied-computing/edmondson_sara.jpg" width="384" height="216" alt="Math Buddy" style="cursor:pointer"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+                    <h3>MathBuddy: Your Best Friend in Math</h3>
+                    <div class="students">
+                        <h4>
+                          Sara Edmondson<br/>
+                        </h4>
+                        <h5 class="majors">
+                            Applied Computing,<br/>
+                            Second discipline: Mathematics
+                        </h5>
+                    </div>
+                    <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+                </div>
+
+            </div>
+            <!-- column 1 END -->
+
+            <!--  Student column 2  -->
+            <div id="col3" class="acspan-6 ">
+                <div class="empty-box"></div>
+                <br/><br/><br>
+
+                <div class="student-box">
+                    <img src="./posters/applied-computing/nobileMatthew.png" width="384" height="216" alt="Visual Planner Web Application" style="cursor:pointer"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+                    <h3>Visual Planner Web Application</h3>
+                    <div class="students">
+                        <h4>
+                            Matthew Nobile<br/>
+                        </h4>
+                        <h5 class="majors">
+                            Applied Computing,<br/>
+                            Second discipline: <br/>Writing
+                        </h5>
+                    </div>
+                    <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+                </div>
+
+                <div class="student-box">
+                    <img src="./posters/applied-computing/vakht_ania.png" width="384" height="216" alt="Linguistics Syntax Parser" style="cursor:pointer"
+                    onclick="onClick(this)" class="w3-hover-opacity">
+                    <h3>Linguistics Syntax Parser</h3>
+                    <div class="students">
+                        <h4>
+                            Ania Vakht<br/>
+                        </h4>
+                        <h5 class="majors">
+                            Applied Computing,<br/>
+                            Second discipline: Linguistics
+                        </h5>
+                    </div>
+                    <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+                </div>
+
+            </div>
+            <!-- column 2 END -->
+        </div>
+    </div>
+    <!-- ------------------------------------ Panel Discussion 2 END ------------------------------------ -->
+
+    <div class="space"></div>
+
+    <div class="info-box">
+        <h4>2:00 PM - 2:05 PM</h4>
+        <h1>5 Minute Break</h1>
+    </div>
+
+    <div class="space"></div>
+
+<!-- ------------------------------------ Panel Discussion 3 ------------------------------------ -->
+
+<div class="acContent_Block">
+    <div class="acContent">
+        <!--  Student column 1  -->
+
+        <div id="col2" class="acspan-12">
+            <div class="gray-box">
+                <h3>2:05 PM - 2:30 PM</h3>
+                <h1><b>Panel Discussion</b>: IT Manager</h1>
+                <div class="gray-box-text">
+                    <b>Host:</b> Brandon Tran  |
+                    <b>Assistants:</b> Jericho Timbol, Daniel Prasetyo<br><br>
+                </div>
+            </div>
+
+            <div class="student-box">
+                <img src="./posters/applied-computing/asadullah_mustafa.png" width="384" height="216" alt="All-In-One Email System" style="cursor:pointer"
+                onclick="onClick(this)" class="w3-hover-opacity">
+                <h3>All-In-One Email System</h3>
+                <div class="students">
+                    <h4>
+                        Mustafa Asadullah<br/>
+                    </h4>
+                    <h5 class="majors">
+                        Applied Computing,<br/>
+                        Second discipline: Business Administration
+                    </h5>
+                </div>
+                <p>Faculty Advisor: Dr. Laurie Anderson </p>
+            </div>
+
+            <div class="student-box">
+                <img src="./posters/applied-computing/chiu_eric_yihao.png" width="384" height="216" alt="Setting Up A Home Server" style="cursor:pointer"
+                onclick="onClick(this)" class="w3-hover-opacity">
+                <h3>Setting Up a Home Server</h3>
+                <div class="students">
+                    <h4>
+                       Eric Yi-Hao Chiu<br/>
+                    </h4>
+                    <h5 class="majors">
+                        Applied Computing,<br/>
+                        Second discipline: <br/>Science, Technology, & Society
+                    </h5>
+                </div>
+                <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+            </div>
+            <div class="student-box">
+                <img src="./posters/applied-computing/norizadeh_abtin.png" width="384" height="216" alt="All-In-One Email System" style="cursor:pointer"
+                onclick="onClick(this)" class="w3-hover-opacity">
+                <h3>All-In-One Email System</h3>
+                <div class="students">
+                    <h4>
+                       Abtin Norizadeh<br/>
+                    </h4>
+                    <h5 class="majors">
+                        Applied Computing,<br/>
+                        Second discipline: Business Administration
+                    </h5>
+                </div>
+                <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+            </div>
+
+        </div>
+        <!-- column 1 END -->
+
+        <!--  Student column 2  -->
+        <div id="col3" class="acspan-6 ">
+            <div class="empty-box"></div>
+            <br/><br/><br>
+
+            <div class="student-box">
+                <img src="./posters/applied-computing/redlinger_brian.png" width="384" height="216" alt="Environment Impacts of Data Centers" style="cursor:pointer"
+                onclick="onClick(this)" class="w3-hover-opacity">
+                <h3>The Environment Impacts of Data Centers</h3>
+                <div class="students">
+                    <h4>
+                        Brian Redlinger<br/>
+                    </h4>
+                    <h5 class="majors">
+                        Applied Computing,<br/>
+                        Second discipline: Environmental Science
+                    </h5>
+                </div>
+                <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+            </div>
+
+            <div class="student-box">
+                <img src="./posters/applied-computing/song_nicholas_joseph.png" width="384" height="216" alt="Desktop Upgrade Solutions" style="cursor:pointer"
+                onclick="onClick(this)" class="w3-hover-opacity">
+                <h3>Desktop Upgrade Solutions at Manager's time</h3>
+                <div class="students">
+                    <h4>
+                        Nicholas Joseph Song<br/>
+                    </h4>
+                    <h5 class="majors">
+                        Applied Computing,<br/>
+                        Second discipline: <br/>History
+                    </h5>
+                </div>
+                <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+            </div>
+            <div class="student-box">
+                <img src="./posters/applied-computing/zhang_maria.png" width="384" height="216" alt="Discord Bot" style="cursor:pointer"
+                onclick="onClick(this)" class="w3-hover-opacity">
+                <h3>Security Helper: A Discord Bot</h3>
+                <div class="students">
+                    <h4>
+                        Maria Zhang<br/>
+                    </h4>
+                    <h5 class="majors">
+                        Applied Computing,<br/>
+                        Second discipline: Cybersecurity
+                    </h5>
+                </div>
+                <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+            </div>
+
+        </div>
+        <!-- column 2 END -->
+    </div>
+</div>
+<!-- ------------------------------------ Panel Discussion 3 END ------------------------------------ -->
+
+<div class="space"></div>
+
+<div class="info-box">
+    <h4>2:30 PM - 2:35 PM</h4>
+    <h1>5 Minute Break</h1>
+</div>
+
+<div class="space"></div>
+
+<!-- ------------------------------------ Panel Discussion 4 ------------------------------------ -->
+
+<div class="acContent_Block">
+    <div class="acContent">
+        <!--  Student column 1  -->
+
+        <div id="col2" class="acspan-12">
+            <div class="gray-box">
+                <h3>2:35 PM - 3:00 PM</h3>
+                <h1><b>Panel Discussion</b>: Business Manager</h1>
+                <div class="gray-box-text">
+                    <b>Host:</b> Maria Zhang  |
+                    <b>Assistants:</b> Sara Edmondson, Jesus Celestino<br><br>
+                </div>
+            </div>
+
+            <div class="student-box">
+                <img src="./posters/applied-computing/bogosian_araksi.jpg" width="384" height="216" alt="AI Cybersecurity System" style="cursor:pointer"
+                onclick="onClick(this)" class="w3-hover-opacity">
+                <h3>Implementation of an AI Cybersecurity System in Ecommerce</h3>
+                <div class="students">
+                    <h4>
+                        Araksi Bogosian<br/>
+                    </h4>
+                    <h5 class="majors">
+                        Applied Computing,<br/>
+                        Second discipline: Business Administration
+                    </h5>
+                </div>
+                <p>Faculty Advisor: Dr. Laurie Anderson </p>
+            </div>
+
+            <div class="student-box">
+                <img src="./posters/applied-computing/gupta_ishika.jpg" width="384" height="216" alt="Solving Business Capability Issues" style="cursor:pointer"
+                onclick="onClick(this)" class="w3-hover-opacity">
+                <h3>Solving Business Capability Issues</h3>
+                <div class="students">
+                    <h4>
+                       Ishika Gupta<br/>
+                    </h4>
+                    <h5 class="majors">
+                        Applied Computing,<br/>
+                        Second discipline: Business Administration
+                    </h5>
+                </div>
+                <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+            </div>
+
+        </div>
+        <!-- column 1 END -->
+
+        <!--  Student column 2  -->
+        <div id="col3" class="acspan-6 ">
+            <div class="empty-box"></div>
+            <br/><br/><br>
+
+            <div class="student-box">
+                <img src="./posters/applied-computing/jochim_bennett_thomas.png" width="384" height="216" alt="How AI will change Business of Cybersecurity" style="cursor:pointer"
+                onclick="onClick(this)" class="w3-hover-opacity">
+                <h3>How AI will change Business of Cybersecurity</h3>
+                <div class="students">
+                    <h4>
+                      Bennett Thomas Jochim<br/>
+                    </h4>
+                    <h5 class="majors">
+                        Applied Computing,<br/>
+                        Second discipline: Business Administration
+                    </h5>
+                </div>
+                <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+            </div>
+
+            <div class="student-box">
+                <img src="./posters/applied-computing/kozodoy_daniel_peter.jpg" width="384" height="216" alt="Task Management Application" style="cursor:pointer"
+                onclick="onClick(this)" class="w3-hover-opacity">
+                <h3>Task Management Application</h3>
+                <div class="students">
+                    <h4>
+                      Daniel Peter Kozodoy<br/>
+                    </h4>
+                    <h5 class="majors">
+                        Applied Computing,<br/>
+                        Science, Technology, & Society
+                    </h5>
+                </div>
+                <p>Faculty Advisor: Dr. Laurie Anderson  </p>
+            </div>
+
+
+        </div>
+        <!-- column 2 END -->
+    </div>
+</div>
+<!-- ------------------------------------ Panel Discussion 4 END ------------------------------------ -->
+<div class="space"></div>
+<div class="space"></div>
+
+    <script type='text/javascript' src="js/structure.js"></script>
+</body>
+</html>
